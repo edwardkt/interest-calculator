@@ -20,3 +20,8 @@ print 'Interest rate for Unsub loan is 6.8% taken on 8/15/2011'
 print 'Interest rate for Unsub loan is 6.8% taken on 8/17/2012'
 print 'Interest rate for Unsub loan is 3.86% taken on 8/16/2013'
 
+interest = 2000 * (0.068 / 365)
+days_2011 = diff_2011.days
+days_2012 = diff_2012.days
+unsub_2011_amount = 2000 + (interest * days_2011)
+print unsub_2011_amount
